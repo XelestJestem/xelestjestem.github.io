@@ -19,16 +19,17 @@ body {
     background-color: pink;
 }
 .wrap-zdj {
-    flex: 1;
-    padding: 30px 0;
+    flex: 0.5;
+    padding: 30px;
     text-align: center;
 }
 .zdj {
-    width: 200px;
+    width: 400px;
     border-radius: 8px;
 }
 
 .opis {
+    flex: 0.5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     padding: 30px;
@@ -40,18 +41,25 @@ body {
     align-items: center;
     height: auto;
   }
-  @media screen and (max-width: 400px) {
-    .bio {
-        background-color: red;
-    }
+  @media screen and (max-width: 800px) {
     .opis {
-        font-size: 20px;
+        font-size: 30px;
         flex:1;
+    }
+    .wrap-zdj {
+        flex: 1
     }
     .zdj {
         width: 80%;
     }
     .flex.bio {
         flex-direction: column;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .opis {
+        font-size: 20px;
     }
   }
