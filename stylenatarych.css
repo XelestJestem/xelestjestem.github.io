@@ -3,7 +3,8 @@ body {
     padding: 0%;
 }
 .bio {
-background-color: gray;
+    flex: 1;
+    background-color: gray;
 }
 img {
     width: auto;
