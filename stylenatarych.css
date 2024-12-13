@@ -4,7 +4,7 @@ body {
 }
 .bio {
     flex: 1;
-    background-color: gray;
+    background-color: pink;
 }
 .zdj {
     flex: 1;
