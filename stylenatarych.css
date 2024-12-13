@@ -6,6 +6,9 @@ body {
 background-color: gray;
 }
 img {
-    width: ;
+    width: auto;
     height: auto;
+}
+.flex {
+    display: flex;
 }
