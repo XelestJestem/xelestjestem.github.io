@@ -2,6 +2,13 @@ body {
     margin: 0%;
     padding: 0%;
 }
+.kontener {
+    display: flex;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
 .bio {
     flex: 1;
     background-color: pink;
@@ -10,10 +17,7 @@ body {
     flex: 1;
 
 }
-.flex {
-    display: flex;
-    flex-direction: row;
-}
+
 .opis {
     flex: 2;
     font-family: Arial, Helvetica, sans-serif;
