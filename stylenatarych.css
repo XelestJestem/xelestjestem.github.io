@@ -2,7 +2,6 @@
 
 
 body {
-
     margin: 0%;
     padding: 0%;
     font-family: Arial;
@@ -58,10 +57,11 @@ body {
         flex:1;
     }
     .wrap-zdj {
-        flex: 1
+        flex: 1;
+        /* padding: 0; */
     }
     .zdj {
-        width: 80%;
+        width: calc(100% - 30px);
     }
     .flex.bio {
         flex-direction: column;
