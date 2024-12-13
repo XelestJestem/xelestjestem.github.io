@@ -6,10 +6,7 @@ body {
     flex: 1;
     background-color: gray;
 }
-img {
-    width: auto;
-    height: auto;
-}
+
 .flex {
     display: flex;
 }
